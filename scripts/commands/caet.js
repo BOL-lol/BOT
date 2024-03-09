@@ -67,6 +67,34 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "🥵") || (event.body.toLowerCase() == "btvv nha mn")) {
      return api.sendMessage("omg ki dey beda ❤️", threadID);
    };
+   
+   if ((event.body.toLowerCase() == "colo") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("aso jai❤️", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "magi,khanki,heda,bolod,xudi") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("গালি দিলে মেরে পেলবো🤬 ", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "আসসালামু আলাইকুম ") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("ওয়ালাইকুম সালাম ❤️", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "tur mare xudi") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("apner mare 365 din xudi tnx❤️", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "oii apu") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("apu na to xans ❤️", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "abal") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("tui abal ❤️", threadID);
+   };
+   
+   if ((event.body.toLowerCase() == "ki kos") || (event.body.toLowerCase() == "btvv nha mn")) {
+     return api.sendMessage("colo cipay jy ❤️", threadID);
+   };
 
 
    if ((event.body.toLowerCase() == "tt go mng") || (event.body.toLowerCase() == "tt go mng")) {
